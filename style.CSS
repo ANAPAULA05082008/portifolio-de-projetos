@@ -1,0 +1,21 @@
+:root {
+--cor-principal:#6e859f;
+--cor-secundaria:#284260;
+--cor-destaque:#c92bfc;
+}
+body {
+font-family: 'Chakra Petch',sans-serif;
+color: var(--cor-principal);
+margin: 2rem;
+}
+h1,h2,h3 {
+color: var(--cor-secundaria);
+font-weight: 700;
+}
+A{
+color: var(--cor-destaque);
+text-decoration: none;
+}
+A:hover {
+color: var(--cor-principal);
+}
